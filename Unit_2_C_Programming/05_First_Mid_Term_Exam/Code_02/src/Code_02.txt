@@ -1,0 +1,50 @@
+/*
+ ============================================================================
+ Name        : Code_02.c
+ Author      : Mohamed Magdy
+ Version     :
+ Copyright   : Your copyright notice
+ Description : function to take an integer number and calculate it's square root
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+
+//double sqRoot(double number){
+//	if (number < 0) {
+//		// Handle negative numbers (result is undefined for real numbers)
+//		printf("Cannot calculate the square root of a negative number.\n");
+//		return -1.0;
+//	}
+//
+//	double tolerance = 0.0001;
+//
+//	double i = 0;
+//	for(i = 0 ; i < (number / 2) ; i += tolerance){
+//		if(fabs(number - (i*i)) == 0)
+//			break;
+//	}
+//
+//	return i;
+//}
+
+
+
+int main(void) {
+
+
+	double num;
+
+	printf("Enter any number to find square root: ");
+	fflush(stdout); fflush(stdin);
+	scanf("%lf", &num);
+
+
+    printf("Square root of %.4f = %.4lf", num, sqrt(num));
+
+
+	return 0;
+}
