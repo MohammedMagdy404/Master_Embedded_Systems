@@ -42,7 +42,7 @@ typedef union{
 
 volatile Ureg_ODR_t* R_ODR = (volatile uint32_t *)(GPIOA_BASE + 0x0C);
 volatile uint8_t BSS_var[5] ;
-static volatile uint8_t BSS_var[5] ;
+static volatile uint8_t BSS_var1[5] ;
 
 int main(void)
 {
