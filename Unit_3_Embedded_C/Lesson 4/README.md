@@ -4,7 +4,9 @@
 
 ## Keil Uvision Simulation mode
 
-<video controls src="Keil Uvision Simulation mode .mov" title="Title"></video>
+
+https://github.com/MohammedMagdy404/Master_Embedded_Systems/assets/119526648/87ef44a2-440a-4452-8dbe-afabd4857776
+
 
 ## Debug TM4C123 by openOCD gdbserver
 
